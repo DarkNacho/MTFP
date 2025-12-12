@@ -24,13 +24,13 @@ style: |
   .center-content { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; height: 100%; }
 ---
 
-# Un Marco Heurístico Completo para el Problema de Formación de Múltiples Equipos Sociométricos
+# A Fully Heuristic Framework for the Sociometric Multiple Team Formation Problem
 
 **Ignacio Martínez Hernández**  
 Doctorado en Sistemas de Ingeniería  
 Universidad de Talca
 
-_Presentación Conferencia IEEE_
+_Metahurísticas_
 
 ---
 
@@ -216,7 +216,9 @@ Se evaluaron siete algoritmos bajo un presupuesto de **Evaluaciones de Función 
 
 _Densidad sociométrica: 30% de relaciones positivas_
 
-## 6. Resultados: Resumen de Rendimiento
+---
+
+## Resultados: Resumen de Rendimiento
 
 <!-- Tres tablas independientes lado a lado para Marp -->
 <div style="display:flex; gap:18px; align-items:flex-start; justify-content:center; width:100%; font-size:0.95em;">
@@ -378,5 +380,3 @@ El resultado es contraintuitivo: un algoritmo simple supera a VNS y GA en alta d
 1.  Se validó con éxito un **marco heurístico completo** (RGCH + $N^1$) para el MTFP, eliminando la dependencia de solvers exactos.
 2.  **Stochastic Local Search (SLS)** es el algoritmo más **robusto y escalable** para el MTFP de alta dimensión.
 3.  Se demostró que la **explotación intensiva** es más efectiva que la diversificación agresiva o poblacional en este paisaje de búsqueda.
-
----
