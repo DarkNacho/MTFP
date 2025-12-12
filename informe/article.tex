@@ -240,7 +240,7 @@ We generated three classes of instances to test scalability and robustness, foll
     \item \textbf{Medium instance:} ($|\mathcal{H}|=100, |\mathcal{P}|=10, |\mathcal{K}|=10$) designed to replicate the largest scenario presented in the original study.
     \item \textbf{Large-scale instance:} ($|\mathcal{H}|=200, |\mathcal{P}|=20$) to assess performance under high dimensional complexity.
 \end{itemize}
-In all cases, the sociometric matrix density (positive relationships) was set to 30\%, consistent with the "Group Type II" defined in the literature.
+In all cases, the sociometric matrix density (positive relationships) was set to 30\%.
 
 \subsection{Parameter Tuning and Budget}
 To ensure a fair comparison between population-based and trajectory-based methods, we standardized the computational effort by defining a fixed \textbf{Computational Budget} in terms of Function Evaluations (NFE). The budget was scaled according to the instance complexity: 20,000 NFE for the Small instance, 50,000 NFE for the Medium instance, and 100,000 NFE for the Large-scale instance. Table \ref{tab:parameters} summarizes the configuration for each algorithm.
