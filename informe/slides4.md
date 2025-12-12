@@ -32,6 +32,9 @@ Universidad de Talca
 
 _Metahurísticas_
 
+[https://github.com/DarkNacho/MTFP](https://github.com/DarkNacho/MTFP)
+
+
 ---
 
 ## Introducción y Motivación
@@ -149,7 +152,7 @@ Se evaluaron siete algoritmos bajo un presupuesto de **Evaluaciones de Función 
 
 ### Diseño y Metodología
 
-- **Diseño:** 30 corridas independientes por algoritmo (Muestras Pareadas).
+- **Diseño:** 30 ejecuciones independientes por algoritmo (Muestras Pareadas).
 - **Métrica:** Eficiencia media ($E_{mean}$).
 
 ### Pruebas de Normalidad
@@ -329,7 +332,7 @@ _Densidad sociométrica: 30% de relaciones positivas_
 
 ###  Prueba de Normalidad (Shapiro-Wilk)
 
-Para la instancia Grande ($N=200$), verificamos la distribución de las 30 corridas:
+Para la instancia Grande ($N=200$), verificamos la distribución de las 30 ejecuciones:
 
 | Algoritmo | $p$-valor Shapiro-Wilk |           Veredicto           |
 | :-------: | :--------------------: | :---------------------------: |
@@ -379,4 +382,4 @@ El resultado es contraintuitivo: un algoritmo simple supera a VNS y GA en alta d
 
 1.  Se validó con éxito un **marco heurístico completo** (RGCH + $N^1$) para el MTFP, eliminando la dependencia de solvers exactos.
 2.  **Stochastic Local Search (SLS)** es el algoritmo más **robusto y escalable** para el MTFP de alta dimensión.
-3.  Se demostró que la **explotación intensiva** es más efectiva que la diversificación agresiva o poblacional en este paisaje de búsqueda.
+3.  Se demostró que la **explotación intensiva** es más efectiva que la diversificación agresiva o poblacional.
